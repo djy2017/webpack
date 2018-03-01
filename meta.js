@@ -106,6 +106,10 @@ module.exports = {
       type: 'confirm',
       message: 'Set up unit tests',
     },
+    ,vuex:{
+      type: "confirm",
+      message: "Install vuex?"
+    },
     runner: {
       when: 'isNotTest && unit',
       type: 'list',
